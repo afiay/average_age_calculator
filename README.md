@@ -1,3 +1,5 @@
+![Python 3.11.2](https://img.shields.io/badge/python-3.11.2-blue.svg)
+
 # Genomsnittsålderskalkylator Efter Kön
 
 Detta Python-skript beräknar genomsnittsåldern för varje kön baserat på användarinput. Programmet uppmanar användaren att mata in personliga uppgifter för flera individer och ger sedan ut genomsnittsåldern för varje kön.
