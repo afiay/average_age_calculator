@@ -14,7 +14,7 @@ python average_age_calculator.py
 ## Funktioner
 
 - Insamlar persondata för ett obestämt antal individer.
-- Hanterar inmatning i ett strukturerat format: Namn, Kön (M/K), och Ålder.
+- Hanterar inmatning i ett strukturerat format: Namn, Kön (M/F), och Ålder.
 - Tillhandahåller genomsnittsålder för varje kön efter att användaren har färdigställt inmatningen av alla individer.
 - Tillåter fortsättning av datamatare eller beräkning av resultat på användarens kommando.
 
@@ -32,7 +32,7 @@ python average_age_calculator.py
 
 ### Initialisering
 
-genders = {'M': {'total_age': 0, 'count': 0}, 'F': {'total_age': 0, 'count': 0}}
+`genders = {'M': {'total_age': 0, 'count': 0}, 'F': {'total_age': 0, 'count': 0}}`
 
 
 Koden initierar en ordlista för att lagra total ålder och antal för män ('M') och kvinnor ('K').
