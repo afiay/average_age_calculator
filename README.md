@@ -23,21 +23,21 @@ python average_age_calculator.py
 ## Funktioner i koden
 
 - `main()`: Huvudfunktionen. Den initierar lagringsstrukturen och styr programmets flöde baserat på användarens input.
-- `input_person_details()`: Frågar användaren efter personuppgifter (namn, kön, ålder) och validerar inmatningen. Den säkerställer att namn innehåller endast alfabetiska tecken och mellanslag, kön är antingen 'M' eller 'K', och ålder är ett numeriskt värde.
+- `input_person_details()`: Frågar användaren efter personuppgifter (namn, kön, ålder) och validerar inmatningen. Den säkerställer att namn innehåller endast alfabetiska tecken och mellanslag, kön är antingen 'M' eller 'F', och ålder är ett numeriskt värde.
 - `update_totals(person, genders)`: Uppdaterar den löpande totalåldern och räkningen för personens angivna kön.
 - `print_averages(genders)`: Beräknar och skriver ut genomsnittsåldern för varje kön.
 
 ## Kodstruktur
-- **Initialisering:** Skapar en ordlista för att lagra totalåldern och antalet individer för män ('M') och kvinnor ('K').
+- **Initialisering:** Skapar en ordlista för att lagra totalåldern och antalet individer för män ('M') och kvinnor ('F').
 - **Datainmatningsloop:** Fortsätter att fråga användaren efter information tills valet görs att visa resultatet.
-- **Datainmatning och validering:** Säkerställer att endast giltig information accepteras (namn med endast bokstäver och mellanslag, kön som 'M' eller 'K', och ålder som numeriska värden).
+- **Datainmatning och validering:** Säkerställer att endast giltig information accepteras (namn med endast bokstäver och mellanslag, kön som 'M' eller 'F', och ålder som numeriska värden).
 
 ### Initialisering
 
 `genders = {'M': {'total_age': 0, 'count': 0}, 'F': {'total_age': 0, 'count': 0}}`
 
 
-Koden initierar en ordlista för att lagra total ålder och antal för män ('M') och kvinnor ('K').
+Koden initierar en ordlista för att lagra total ålder och antal för män ('M') och kvinnor ('F').
 
 ### Inmatningsloop
 
@@ -57,7 +57,7 @@ När användaren anger att inga fler personer kommer att läggas till, kallas `p
 
 ## Framtida Förbättringar
 
-- Hantera fler könsalternativ bortom den binära indelningen 'M' och 'K'.
+- Hantera fler könsalternativ bortom den binära indelningen 'M' och 'F'.
 - Spara inmatad data till en fil för varaktig lagring.
 - Implementera felhantering för oväntade avstängningar eller avbrott.
 - Inkludera ytterligare statistisk information som median och typvärde.
