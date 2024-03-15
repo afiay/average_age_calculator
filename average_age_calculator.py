@@ -1,3 +1,21 @@
+"""
+Projektdokumentation för Genomsnittsåldersberäknare:
+Utvecklingsprocess:
+- Algoritmen skapades först i pseudokod för att tydligt definiera programmets flöde.
+- Kodutvecklingen genomfördes stegvis, med kontinuerliga tester efter varje ny funktion.
+- Fokus lades på att säkerställa programmets robusthet genom att hantera olika typer av felaktiga användarinmatningar.
+
+Felsökning:
+- Syntaxfel och logiska fel åtgärdades löpande under kodskrivningen.
+- Särskild uppmärksamhet ägnades åt att testa programmet med oväntade inmatningar, såsom icke-alfabetiska tecken i namn och ogiltiga värden för kön och ålder.
+- Ett strukturerat felsökningstillvägagångssätt användes för att identifiera och lösa problem, vilket dokumenterades i utvecklingsloggen.
+
+Reflektion:
+- Detta projekt har stärkt mina färdigheter i Python-programmering, särskilt i felhantering och användarinteraktion.
+- Jag har lärt mig vikten av att planera och strukturera koden noggrant före utvecklingen, samt värdet av kontinuerlig testning.
+"""
+
+
 def main():
     # Ordboken 'genders' innehåller två kategorier: 'M' för män och 'F' för kvinnor.
     # För varje kategori lagrar vi 'total_age' som är summan av alla åldrar och 'count' som är antalet personer.
