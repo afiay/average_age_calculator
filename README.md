@@ -57,10 +57,9 @@ När användaren anger att inga fler personer kommer att läggas till, kallas `p
 
 ## Framtida Förbättringar
 
-- Hantera fler könsalternativ bortom den binära indelningen 'M' och 'F'.
-- Spara inmatad data till en fil för varaktig lagring.
-- Implementera felhantering för oväntade avstängningar eller avbrott.
-- Inkludera ytterligare statistisk information som median och typvärde.
+- Programmet hanterar en bred variation av inmatningar och ger användarvänlig feedback, vilket gör det robust.
+- För framtida versioner kan en grafisk användargränssnitt (GUI) implementeras för en mer intuitiv användarupplevelse.
+- Ytterligare funktionalitet, såsom att spara och läsa inmatningsdata från en fil, kan övervägas för att utöka programmets användbarhet.
 
 ## Kontaktinformation
 
